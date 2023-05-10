@@ -1,0 +1,157 @@
+/* CSS for Profile.html */
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#ffffff ;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.header_wrapper {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header {
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.left_container {
+    flex-basis: 50%;
+    padding: 30px;
+}
+
+.image_container {
+    position: relative;
+}
+
+.image_container img {
+    max-width: 100%;
+}
+
+.image_container span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 100;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #0080ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+.about {
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.about li {
+    font-size: 16px;
+    color: #000104;
+    margin-right: 40px;
+}
+
+.about li span {
+    font-weight: bold;
+    color: #000000;
+}
+
+.content {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.content p:first-of-type {
+    margin-bottom: 20px;
+}
+
+.right_container {
+    flex-basis: 50%;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: #0080ff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0080ff;
+    color: #ffffff;
+}
+
+.visited.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.visited.places img {
+    margin-bottom: 30px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
